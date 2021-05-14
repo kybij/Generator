@@ -38,7 +38,7 @@ function generatePassword() {
         passwordChar += numbersChar;
     }
     // How many special charaters
-    var specialCharacters = confirm("Click OK to Confirm speical characters");
+    var specialCharacters = confirm("Click OK to Confirm speical characters.");
     if (specialCharacters) {
         passwordChar += specialChar;
     }
